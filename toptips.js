@@ -58,6 +58,7 @@
 
             var $toptip = $('<div class="toptip-wrapper"></div>').css({
                 position: 'absolute',
+                zIndex: 9999,
                 display: 'none',
                 borderRadius: '5px',
                 background: opt.borderColor,
